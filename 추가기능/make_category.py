@@ -1,6 +1,8 @@
 import csv
 import pandas as pd
 
+
+
 def make_category(keyword, category):
     file = open('megaGymDataset.csv', encoding='utf-8-sig')
     csvreader = csv.reader(file)
